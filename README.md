@@ -23,6 +23,12 @@ Desenvolver um sistema simples e funcional capaz de:
 
 ## Funcionalidades
 
+## Como executar o sistema
+
+- Apos o download do projeto no GitHub
+- Extrair os arquivos da pasta
+- Na pasta script -> selecionar o arquivo index
+
 ### CRUD de Tarefas
 O sistema permite:
 

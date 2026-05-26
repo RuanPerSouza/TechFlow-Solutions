@@ -1,133 +1,91 @@
-# TechFlow Solutions
+# TaskFlow - Sistema de Gerenciamento Ágil
 
-Sistema de gerenciamento de tarefas baseado em metodologias ágeis, desenvolvido para auxiliar equipes no acompanhamento de atividades em tempo real utilizando o modelo Kanban.
+## Sobre o Projeto
 
----
+O TaskFlow é um sistema de gerenciamento de tarefas desenvolvido para auxiliar equipes no acompanhamento e organização de atividades utilizando metodologias ágeis.
 
-## 📌 Sobre o Projeto
-
-A **TechFlow Solutions** é uma empresa fictícia criada para o desenvolvimento deste projeto acadêmico da disciplina de Engenharia de Software.
-
-O objetivo do sistema é oferecer uma plataforma intuitiva para gerenciamento de tarefas, permitindo que equipes organizem demandas, acompanhem o progresso das atividades e melhorem a produtividade utilizando práticas ágeis.
-
-O sistema será inspirado em ferramentas como:
-
-* Trello
-* Jira
-* Notion
+O projeto foi criado como parte da disciplina de Engenharia de Software, simulando o desenvolvimento de um software real utilizando práticas modernas de gestão, versionamento e controle de qualidade.
 
 ---
 
-# 🎯 Objetivos
+## Objetivo
 
-* Organizar tarefas utilizando o modelo Kanban
-* Melhorar o fluxo de trabalho da equipe
-* Facilitar o acompanhamento de atividades
-* Aplicar conceitos de Engenharia de Software
-* Utilizar metodologias ágeis no desenvolvimento
-* Implementar controle de qualidade e versionamento
+Desenvolver um sistema simples e funcional capaz de:
 
----
-
-# 🛠️ Funcionalidades
-
-## 📋 Gerenciamento de Tarefas
-
-* Criar tarefas
-* Editar tarefas
-* Excluir tarefas
-* Definir prioridade
-* Adicionar descrição
-  
-## 📌 Quadro Kanban
-
-* A Fazer
-* Em Desenvolvimento
-* Concluído
-
-## 📊 Monitoramento
-
-* Acompanhamento de progresso
-* Histórico de tarefas
-* Relatórios de produtividade
+- Cadastrar tarefas
+- Editar tarefas
+- Excluir tarefas
+- Alterar status das atividades
+- Organizar tarefas utilizando o modelo Kanban
+- Simular um fluxo de trabalho ágil
 
 ---
 
-# ⚙️ Metodologia Utilizada
+## Funcionalidades
 
-O projeto utilizará a metodologia ágil **Scrum** integrada ao modelo **Kanban**, formando uma abordagem híbrida conhecida como:
+### CRUD de Tarefas
+O sistema permite:
 
-## 🔄 Scrumban
+- Criar tarefas
+- Listar tarefas
+- Atualizar tarefas
+- Remover tarefas
 
-O **Scrumban** combina:
+### Controle de Status
+Cada tarefa pode possuir os seguintes estados:
 
-* Organização visual do Kanban
-* Planejamento iterativo do Scrum
-* Controle contínuo de tarefas
-* Melhor adaptação às mudanças
+- A Fazer
+- Em Progresso
+- Concluído
 
-### Práticas aplicadas:
+### Prioridade das Tarefas
+As tarefas podem possuir prioridade:
 
-* Sprint Planning
-* Daily Meeting
-* Product Backlog
-* Quadro Kanban
-* Controle de fluxo
-* Revisão de Sprint
+- Baixa
+- Média
+- Alta
 
----
-
-# 🧱 Tecnologias Utilizadas
-
-## Front-end
-
-* HTML5
-* CSS3
-
-## Back-end
-
-* JavaScript
-
-## Ferramentas
-
-* Git
-* GitHub
-* Figma
-* Visual Studio Code
+### Persistência de Dados
+As informações são armazenadas utilizando LocalStorage do navegador.
 
 ---
 
-# 📂 Estrutura Inicial do Projeto
+## Tecnologias Utilizadas
 
-```bash
-TechFlow-Solutions/
+- HTML5
+- CSS3
+- JavaScript
+- Git
+- GitHub
+- GitHub Actions
+
+---
+
+## Metodologia Ágil Utilizada
+
+O projeto foi desenvolvido utilizando conceitos de metodologias ágeis, principalmente:
+
+- Kanban
+- Scrum
+- Controle incremental de entregas
+- Gestão contínua de mudanças
+
+O gerenciamento das tarefas foi realizado utilizando o GitHub Projects.
+
+---
+
+## Estrutura do Projeto
+
+```txt
+taskflow/
 │
-├── frontend/
-├── backend/
-├── docs/
-├── README.md
-└── .gitignore
-```
-
----
-
-# 🚀 Futuras Implementações
-
-* Integração com calendário
-* Notificações em tempo real
-* Sistema de comentários
-* Upload de arquivos
-* Dashboard analítico
-* Aplicativo mobile
-
----
-
-# 👨‍💻 Equipe de Desenvolvimento
-
-Projeto desenvolvido para fins acadêmicos na disciplina de Engenharia de Software.
-
----
-
-# 📄 Licença
-
-Este projeto possui finalidade exclusivamente educacional.
+├── src/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+│
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+│
+└── README.md

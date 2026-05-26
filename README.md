@@ -80,6 +80,37 @@ O gerenciamento das tarefas foi realizado utilizando o GitHub Projects.
 
 ---
 
+## Controle de Qualidade
+
+O projeto utiliza GitHub Actions para automatizar verificações básicas do sistema.
+
+A integração contínua permite:
+
+- Automatização de processos
+- Verificação automática após commits
+- Melhor confiabilidade do software
+- Maior controle de qualidade
+- Gestão de Mudanças
+
+Durante o desenvolvimento do projeto, houve uma alteração no escopo inicial.
+
+## Mudança Implementada
+
+Inicialmente o sistema possuía apenas gerenciamento básico de tarefas.
+
+Após análise das necessidades do cliente, foi adicionada a funcionalidade de prioridade de tarefas.
+
+Justificativa
+
+A funcionalidade foi adicionada para permitir que equipes identifiquem atividades críticas de forma mais eficiente.
+
+Essa mudança exigiu:
+
+- Atualização do sistema
+- Alteração do Kanban
+- Novas tarefas no backlog
+- Atualização da documentação 
+
 ## Estrutura do Projeto
 
 ```txt

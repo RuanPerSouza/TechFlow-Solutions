@@ -41,18 +41,9 @@ O sistema será inspirado em ferramentas como:
   
 ## 📌 Quadro Kanban
 
-O sistema contará com colunas para organização do fluxo de trabalho:
-
 * A Fazer
 * Em Desenvolvimento
-* Em Revisão
 * Concluído
-
-## 👥 Gerenciamento de Usuários
-
-* Cadastro de usuários
-* Login e autenticação
-* Controle de permissões
 
 ## 📊 Monitoramento
 
@@ -95,12 +86,7 @@ O **Scrumban** combina:
 
 ## Back-end
 
-* Java
-* Spring Boot
-
-## Banco de Dados
-
-* MySQL
+* JavaScript
 
 ## Ferramentas
 
@@ -118,7 +104,6 @@ TechFlow-Solutions/
 │
 ├── frontend/
 ├── backend/
-├── database/
 ├── docs/
 ├── README.md
 └── .gitignore

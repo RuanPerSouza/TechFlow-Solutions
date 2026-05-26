@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  teste:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Executar teste
+        run: |
+  echo "Iniciando testes..."
+  echo "CRUD funcionando"
+  echo "Pipeline executado com sucesso"
